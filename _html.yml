@@ -1,0 +1,16 @@
+# Jekyll Configuration
+safe: true
+source: .
+destination: dist/mastering-d3-html
+lsi: false
+markdown: rdiscount
+permalink: pretty
+exclude:
+    - bower_components
+    - node_modules
+    - less
+    - chapter08
+    - chapter12
+
+name: "Mastering D3.js"
+baseurl: ''
